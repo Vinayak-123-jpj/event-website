@@ -20,15 +20,30 @@ function Footer() {
           fontSize: "16px",
         }}
       >
-        <a href="#" style={{ color: "white", textDecoration: "none" }}>
+        <a
+          href="https://instagram.com"
+          target="_blank"
+          rel="noreferrer"
+          style={{ color: "white", textDecoration: "none" }}
+        >
           Instagram
         </a>
-        <span>|</span>
-        <a href="#" style={{ color: "white", textDecoration: "none" }}>
+
+        <a
+          href="https://linkedin.com"
+          target="_blank"
+          rel="noreferrer"
+          style={{ color: "white", textDecoration: "none" }}
+        >
           LinkedIn
         </a>
-        <span>|</span>
-        <a href="#" style={{ color: "white", textDecoration: "none" }}>
+
+        <a
+          href="https://twitter.com"
+          target="_blank"
+          rel="noreferrer"
+          style={{ color: "white", textDecoration: "none" }}
+        >
           Twitter
         </a>
       </div>
