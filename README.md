@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+# Tech Event 2026 Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive event website built with React for showcasing tech conferences and meetups.
 
-## Available Scripts
+## 🌐 Live Demo
 
-In the project directory, you can run:
+**Visit the live site:** [https://event-website-lemon-nine.vercel.app](https://event-website-lemon-nine.vercel.app)
 
-### `npm start`
+## 📋 Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Hero Section** - Eye-catching landing area with gradient background
+- **About** - Event description and details
+- **Speakers** - Showcase of event speakers with interactive cards
+- **Schedule** - Timeline of event activities
+- **Registration** - Simple form for attendee registration
+- **Venue** - Information about in-person and online attendance options
+- **Responsive Design** - Works seamlessly on desktop, tablet, and mobile devices
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🚀 Quick Start
 
-### `npm test`
+### Prerequisites
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Node.js (version 14 or higher)
+- npm or yarn
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🛠️ Built With
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **React** - JavaScript library for building user interfaces
+- **Create React App** - Set up and configuration
+- **CSS-in-JS** - Inline styling for components
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📁 Project Structure
 
-### `npm run eject`
+```
+src/
+├── components/
+│   ├── Navbar.js      # Navigation bar
+│   ├── Hero.js        # Hero/landing section
+│   ├── About.js       # About the event
+│   ├── Speakers.js    # Speaker profiles
+│   ├── Schedule.js    # Event timeline
+│   ├── Register.js    # Registration form
+│   ├── Venue.js       # Venue information
+│   └── Footer.js      # Footer with social links
+├── App.js             # Main app component
+├── index.js           # Entry point
+└── index.css          # Global styles
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🌟 Deployment
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This project is deployed on Vercel. Any push to the main branch automatically triggers a new deployment.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+**Deployment URL:** [https://event-website-lemon-nine.vercel.app](https://event-website-lemon-nine.vercel.app)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Note:** This is a template project. Feel free to customize the content, colors, and components to match your event's branding!
